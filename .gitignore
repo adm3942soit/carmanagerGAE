@@ -1,0 +1,25 @@
+.gradle
+gradle
+
+### STS ###
+
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+build/classes/
+build/dependency-cache/
+build/reports
+build/libs
+build/resources
+build/test-results
+build/tmp
+build
+gradle.properties
