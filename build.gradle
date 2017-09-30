@@ -78,6 +78,7 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-tomcat:1.1.8.RELEASE'
 	//maxmind
 	compile('com.maxmind.geoip2:geoip2:2.8.1')
+	compile 'com.google.cloud:google-cloud:0.24.0-alpha'
     //mysql
 	runtime('mysql:mysql-connector-java')
     //test spring
