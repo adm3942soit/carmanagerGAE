@@ -17,19 +17,9 @@ create table carmanager.renta_history
   FROM_DATE timestamp  not null,
   TO_DATE timestamp  not null,
   constraint renta_history_ID_uindex
-  unique (ID),
-  constraint renta_history_persons_NAME_fk
-  foreign key (PERSON) references persons (NAME),
-  constraint renta_history_vehicles_VEHICLE_NMBR_fk
-  foreign key (VEHICLE) references vehicles (VEHICLE_NMBR)
+  unique (ID)
 )
 ;
 
-create index renta_history_persons_NAME_fk
-  on renta_history (PERSON)
-;
 
-create index renta_history_vehicles_VEHICLE_NMBR_fk
-  on renta_history (VEHICLE)
-;
 
